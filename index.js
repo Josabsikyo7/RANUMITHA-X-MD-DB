@@ -63,7 +63,7 @@ async function connectToWA() {
 
   console.log("Connecting 🪄 RANUMITHA 🏮");
   const { state, saveCreds } = await useMultiFileAuthState(
-    __dirname + "/auth_info_baileys/"
+    __dirname + "/sessions/"
   );
   var { version } = await fetchLatestBaileysVersion();
 
